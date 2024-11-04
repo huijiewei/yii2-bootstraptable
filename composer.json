@@ -1,0 +1,36 @@
+{
+  "name": "huijiewei/yii2-bootstraptable",
+  "description": "An extended Bootstrap table with radio, checkbox, sort, pagination, extensions and other added features.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-bootstraptable.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "bootstraptable",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.2",
+    "yiisoft/yii2": "^2.0",
+    "npm-asset/bootstrap-table": "^1.19.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\bootstraptable\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}
